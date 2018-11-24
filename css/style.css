@@ -1,0 +1,49 @@
+body {
+  background-color: #CEC6C7;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  max-width: 750px;
+}
+
+.header {
+  font-size: 3em;
+  color: #37822B;
+  -webkit-text-stroke: 1px #142E10;
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  
+}
+
+.message{
+  text-align:center;
+  font-size:1.5em;
+}
+
+.drum-pad {
+  font-family: 'Rubik', sans-serif;
+  background-color: #FF5600;
+  color: white;
+  font-size: 2rem;
+  border: 2px solid black;
+  margin: .5%;
+  flex: 1;
+  flex-basis: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  
+}
+
+.playing {
+  transform: scale(1.1);
+  border: 3px solid black;
+  box-shadow: 0 0 1rem #ffc600;
+}
